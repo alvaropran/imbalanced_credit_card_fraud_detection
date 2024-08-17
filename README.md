@@ -1,4 +1,4 @@
-The following data was tested on google colab, the code is attached in the file. 
+The credit card data was extracted from Kaggle and tested on Google Colab, the code is attached in the file. 
 
 Different machine learning models and their accuracy measurements for different parameters:
 
