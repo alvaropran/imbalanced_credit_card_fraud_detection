@@ -1,3 +1,5 @@
+The following data was tested on google colab, the code is attached in the file. 
+
 Different machine learning models and their accuracy measurements for different parameters:
 
 Sorted on descending f-1 score. 
