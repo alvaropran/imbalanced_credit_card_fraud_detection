@@ -6,7 +6,7 @@ Sorted on descending f-1 score.
 
 Classifying ‘Fraud’ since the imbalanced data towards getting ‘Not Fraud’ is all positive
 
-## IMBALANCED DATASET
+## Imbalanced Dataset
 | Machine learning model on val | precision | recall | f-1 score |
 | ------------- | ------------- | ------------- | ------------- |
 | Linear svm  | 0.65 | 0.78  | 0.71  |
@@ -17,7 +17,7 @@ Classifying ‘Fraud’ since the imbalanced data towards getting ‘Not Fraud�
 
 Next step: change the data set to match the number of classes for Not Fraud and Fraud
 
-## BALANCED DATASET
+## Balanced Dataset
 
 | LogisticReression | precision | recall | f-1 score | support |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
