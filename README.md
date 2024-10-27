@@ -1,5 +1,7 @@
 The credit card data was extracted from Kaggle and tested on Google Colab, the code is attached in the file. 
 
+The goal of this project was to explore different machine learning models and how they differentiate from one another, focusing on how each of their pros and cons.
+
 Different machine learning models and their accuracy measurements for different parameters:
 
 Sorted on descending f-1 score. 
