@@ -8,7 +8,31 @@ Sorted on descending f-1 score.
 
 Classifying ‘Fraud’ since the imbalanced data towards getting ‘Not Fraud’ is all positive
 ___
+### Key Insights and Business Impact:
 
+1. **Imbalanced Dataset**:
+   - **Challenge**: Skewed towards "Not Fraud," leading to potential financial losses from undetected fraud.
+   - **Best Performers**: Linear SVM (F1: 0.71) and Shallow NN (F1: 0.70).
+   - **Impact**: High recall is crucial to minimize missed fraud cases, even if precision slightly drops.
+
+2. **Balanced Dataset**:
+   - **Results**: Models improve significantly, with Shallow NN and Logistic Regression achieving the highest F1-scores (0.94).
+   - **Impact**: Balancing ensures fair detection of fraud and reduces bias, improving trust and reliability.
+
+3. **Model Use Cases**:
+   - **Fraud Detection**: Prioritize Shallow NN or Logistic Regression for high fraud recall while maintaining strong precision.
+   - **Operational Efficiency**: Linear SVM offers simplicity with competitive accuracy.
+   - **Cost-Sensitive Scenarios**: Gradient Boosting balances precision for "Not Fraud" but sacrifices recall.
+
+4. **Real-World Applications**:
+   - **Financial Systems**: Effective fraud detection reduces financial loss.
+   - **Healthcare**: High recall ensures rare but critical cases (e.g., diseases) aren't missed.
+   - **Customer Experience**: Balanced models reduce false positives, maintaining user trust.
+
+5. **Recommendations**:
+   - Balance datasets to improve fairness.
+   - Prioritize F1-scores over accuracy for imbalanced problems.
+   - Use interpretable models (e.g., Logistic Regression) for high-stakes decisions.
 
 ___
 ## Imbalanced Dataset
