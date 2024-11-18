@@ -7,7 +7,10 @@ Different machine learning models and their accuracy measurements for different 
 Sorted on descending f-1 score. 
 
 Classifying ‘Fraud’ since the imbalanced data towards getting ‘Not Fraud’ is all positive
+___
 
+
+___
 ## Imbalanced Dataset
 | Machine learning model on val | precision | recall | f-1 score |
 | ------------- | ------------- | ------------- | ------------- |
